@@ -32,9 +32,9 @@ const expected2 = ['', '', '!', '!', '!'];
 sortArray(toSort2, actual2);
 testSortAsync(actual2, expected2, 'Test 2');
 
-const toSort3 = [];
+const toSort3 = ['!', '', '!', '', '!']; // add
 const actual3 = [];
-const expected3 = [];
+const expected3 = ['', '', '!', '!', '!']; // add
 sortArray(toSort3, actual3);
 testSortAsync(actual3, expected3, 'Test 3');
 
